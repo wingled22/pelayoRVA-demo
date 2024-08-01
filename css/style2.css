@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: #cdcdcd;
+    height: 500px;
+    padding: 10px 40px;
+}
+
+.container > div{
+    width: 220px;
+    height: 300px;
+}
+
+.left{
+    position: fixed;
+    left: 30px;
+    background-color: aliceblue;
+    
+}
+
+.right{
+    position: fixed;
+    right: 30px;
+    background-color: aliceblue;
+
+}
+
+.sub-topic-item{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-topic-item p{
+    font-size: 10px;
+    color: rgb(225, 110, 129);
+}
+
+.sub-topic-item .list{
+    margin-left: 10px;
+    color: blue;
+    font-size: 10px;
+
+
+}
