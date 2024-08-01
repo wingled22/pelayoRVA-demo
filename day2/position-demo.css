@@ -1,0 +1,33 @@
+.parent{
+    margin: 3rem;
+    position: relative;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: chocolate;
+    margin: 5px;
+}
+
+/* position : static relative absolute sticky fixed */
+.p-relative{
+    background: coral;
+    /* position: relative;
+    top: 50px;
+    left: 60px ; */
+}
+
+
+
+
+.div-1{
+    background: pink;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 20;
+    right: 20px;
+   
+}
+

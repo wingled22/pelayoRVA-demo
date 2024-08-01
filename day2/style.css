@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background: coral;
+    margin: 5px;
+            /* none | block | inline | inline-block*/
+    display: inline-block;
+}
+
+.d-none{
+    display: none;
+}
+
+em, u, span{
+    border: solid brown 5px;
+}
+
+em{
+    display: block;
+}
